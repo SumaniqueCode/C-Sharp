@@ -3,7 +3,7 @@
 using System;
 
 //Declaring Interface
-interface A
+interface I
 {
     //Interface doesnot contain data members
     //They contain method signature
@@ -23,7 +23,7 @@ class B
 }
 
 //Class C inheritates multiple classes 
-class C : B, A
+class C : B, I
 {
     public int CalculateArea()
     {
