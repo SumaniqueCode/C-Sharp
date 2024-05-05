@@ -13,11 +13,13 @@ class Complex
         y = j;
     }
 
+    //method to display value
     public void Show()
     {
         Console.WriteLine("{0} {1}", x, y);
     }
 
+    //Operator overloading
     public static Complex operator +(Complex c1, Complex c2)
     {
         Complex temp = new Complex();
@@ -26,7 +28,7 @@ class Complex
         return temp;
     }
 }
-//Main Program
+//Main class
 class Program
 {
     public static void Main(string[] args)
