@@ -1,14 +1,20 @@
 using System;
-class Cons{
+class Cons
+{
     private int sum;
-    public Cons(int a, int b){
-        sum= a+b;
-        Console.WriteLine("The sum is: "+ sum);
+
+    //Constructor should have same name as class name and are initialized when class instance is called.
+    public Cons(int a, int b)
+    {
+        sum = a + b;
+        Console.WriteLine("The sum is: " + sum);
     }
 }
-class Program{
+class Program
+{
     static void Main(string[] args)
     {
-        new Cons(10,20);
+        //Calling the instance of class
+        new Cons(10, 20);
     }
 }
