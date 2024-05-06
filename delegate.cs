@@ -21,9 +21,9 @@ class DelegateTest
 
     static void Main(string[] args)
     {
-        DeligateNum sum = new DeligateNum(AddNum);
+        DeligateNum sum = AddNum;
         Console.WriteLine(sum(5, 2));
-        DeligateNum mul = new DeligateNum(MulNum);
+        DeligateNum mul = MulNum;
         Console.WriteLine(mul(10, 12));
 
 
