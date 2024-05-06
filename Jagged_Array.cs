@@ -12,10 +12,13 @@ class Jagged
 
         foreach (int[] array in jagged)
         {
+            int sum = 0;
             foreach (int e in array)
             {
                 Console.Write(e + " ");
+                sum = sum +e;
             }
+            Console.Write("The sum of this row is: "+ sum);
             Console.WriteLine("");
         }
     }
